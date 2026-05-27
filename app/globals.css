@@ -154,6 +154,14 @@
   --sidebar-ring: oklch(0.85 0.002 240);
 }
 
+button[data-slot="button"] {
+  cursor: pointer;
+}
+
+[data-slot="sidebar-container"] {
+  border: none !important;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
